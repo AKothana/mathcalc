@@ -66,6 +66,7 @@ namespace Calc1
         };
         public static Tuple<List<RpnModel>,string> ShuntRpnModel(List<string> input)
         {
+            // test message for Git commit
             var op = new Stack<OperatorPrecedence>();
             var rpn = new List<RpnModel>();
             var errorMessage = string.Empty;
